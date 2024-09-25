@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="don_t_have_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#82799D</item>
+    </style>
+
+    <style name="sign_up">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0F0F0F</item>
+    </style>
+
+    <style name="search_doct">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#8696BB</item>
+    </style>
+
+    <style name="abcd_vaccin">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="vaccinnatio">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#CBE1FF</item>
+    </style>
+
+    <style name="sunday_12_j">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="mahi_mail_c">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#7B6BA8</item>
+    </style>
+
+    <style name="account">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#56428F</item>
+    </style>
+</resources>

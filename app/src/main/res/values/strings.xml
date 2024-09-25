@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TinyGuardian</string>
+
+    <string name="get_ready_t">
+        Get ready to track, monitor, and care for your childs health with PediatricCareGuard
+    </string>
+
+    <string name="text">
+        Email
+    </string>
+
+    <string name="text2">
+        Password
+    </string>
+
+    <string name="text3">
+        Password
+    </string>
+
+    <string name="welcome_bac">
+        Welcome Back
+    </string>
+
+    <string name="login">
+        Login
+    </string>
+
+    <string name="hi_rajapaks">
+        Hi Rajapakshe
+    </string>
+
+    <string name="hello_">
+        Hello,
+    </string>
+
+    <string name="remainders">
+        Remainders
+    </string>
+
+    <string name="don_t_have_">
+        Dont have an account?
+    </string>
+
+    <string name="search_doct">
+        Search doctor or health issue
+    </string>
+
+    <string name="vaccinnatio">
+        Vaccinnation remainder
+    </string>
+
+    <string name="sunday_12_j">
+        Sunday, 12 June
+    </string>
+
+    <string name="mahi_mail_c">
+        mahi@mail.com
+    </string>
+</resources>

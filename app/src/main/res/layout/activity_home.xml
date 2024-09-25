@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onboarding4"
+    android:background="#F4EAE2" >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="395dp"
+        android:layout_height="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/search_doct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/loog_in"
+            android:layout_width="137dp"
+            android:layout_height="21dp"
+            android:fontFamily="@font/raleway_extrabold"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="4sp"
+            android:text="Hi Rajapakshe"
+            android:textColor="#432C81"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:translationY="-2.22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.598" />
+
+        <TextView
+            android:id="@+id/log_des"
+            android:layout_width="52dp"
+            android:layout_height="22dp"
+            android:fontFamily="@font/raleway"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="4sp"
+            android:text="Hello"
+            android:textColor="#432C81"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:translationY="-2.22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.318" />
+
+        <ImageView
+            android:id="@+id/doctor_anim"
+            android:layout_width="80dp"
+            android:layout_height="75dp"
+            android:background="@drawable/bear1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/search_doct"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:background="@drawable/mainsearch"
+        android:fontFamily="@font/raleway"
+        android:gravity="top"
+        android:paddingLeft="60dp"
+        android:paddingTop="18dp"
+        android:text="@string/search_doct"
+        android:textAppearance="@style/search_doct"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frame_22"
+        android:layout_width="373dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="91dp"
+            android:layout_height="101dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/conndoc" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="89dp"
+            android:layout_height="102dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageButton6"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.509"
+            app:srcCompat="@drawable/vaccshe" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="95dp"
+            android:layout_height="102dp"
+            android:layout_marginStart="98dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageButton7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/grotrac" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="99dp"
+            android:layout_height="103dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.49"
+            app:srcCompat="@drawable/symche" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/remainders"
+        android:layout_width="333dp"
+        android:layout_height="34dp"
+        android:background="@color/black"
+        android:fontFamily="@font/kanit_bold"
+        android:gravity="top"
+        android:paddingLeft="20dp"
+        android:text="@string/remainders"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame_22"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="363dp"
+        android:layout_height="314dp"
+        android:layout_marginTop="248dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_doct">
+
+        <RelativeLayout
+            android:layout_width="338dp"
+            android:layout_height="336dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/frame_11"
+                android:layout_width="336dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="236dp"
+                android:background="@drawable/remainder_frame"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.158">
+
+                <TextView
+                    android:id="@+id/abcd_vaccin"
+                    android:layout_width="155dp"
+                    android:layout_height="23dp"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:gravity="top"
+                    android:lineSpacingExtra="-6sp"
+                    android:text="ABCD Vaccination"
+                    android:textAppearance="@style/abcd_vaccin"
+                    app:layout_constraintBottom_toTopOf="@+id/vaccinnatio"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.8" />
+
+                <TextView
+                    android:id="@+id/vaccinnatio"
+                    android:layout_width="318dp"
+                    android:layout_height="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="top"
+                    android:text="@string/vaccinnatio"
+                    android:textAppearance="@style/vaccinnatio"
+                    android:textSize="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.619"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.298" />
+
+                <View
+                    android:id="@+id/vector_1"
+                    android:layout_width="319dp"
+                    android:layout_height="4dp"
+                    android:background="@drawable/vec_line"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/vaccinnatio"
+                    app:layout_constraintVertical_bias="0.159" />
+
+                <View
+                    android:id="@+id/vuesax_line"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/calendar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_1"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.809" />
+
+                <TextView
+                    android:id="@+id/sunday_12_j"
+                    android:layout_width="95dp"
+                    android:layout_height="18dp"
+                    android:gravity="top"
+                    android:text="@string/sunday_12_j"
+                    android:textAppearance="@style/sunday_12_j"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_1"
+                    app:layout_constraintHorizontal_bias="0.188"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/abcd_vaccin"
+                    app:layout_constraintVertical_bias="0.8" />
+
+                <View
+                    android:id="@+id/vuesax_line11"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/clock"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_1"
+                    app:layout_constraintHorizontal_bias="0.597"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.809" />
+
+                <TextView
+                    android:id="@+id/sunday_time"
+                    android:layout_width="88dp"
+                    android:layout_height="18dp"
+                    android:gravity="top"
+                    android:text="12:00 PM"
+                    android:textAppearance="@style/sunday_12_j"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_1"
+                    app:layout_constraintHorizontal_bias="0.912"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/abcd_vaccin"
+                    app:layout_constraintVertical_bias="0.8" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/frame_12"
+                android:layout_width="336dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/remainder_frame"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.158">
+
+                <TextView
+                    android:id="@+id/abcd_vaccin1"
+                    android:layout_width="155dp"
+                    android:layout_height="23dp"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:gravity="top"
+                    android:lineSpacingExtra="-6sp"
+                    android:text="ABCD Vaccination"
+                    android:textAppearance="@style/abcd_vaccin"
+                    app:layout_constraintBottom_toTopOf="@+id/vaccinnatio1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.8" />
+
+                <TextView
+                    android:id="@+id/vaccinnatio1"
+                    android:layout_width="318dp"
+                    android:layout_height="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="top"
+                    android:text="@string/vaccinnatio"
+                    android:textAppearance="@style/vaccinnatio"
+                    android:textSize="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.619"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.298" />
+
+                <View
+                    android:id="@+id/vector_2"
+                    android:layout_width="319dp"
+                    android:layout_height="4dp"
+                    android:background="@drawable/vec_line"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/vaccinnatio1"
+                    app:layout_constraintVertical_bias="0.159" />
+
+                <View
+                    android:id="@+id/vuesax_line1"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/calendar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_2"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.809" />
+
+                <TextView
+                    android:id="@+id/sunday_12_j1"
+                    android:layout_width="95dp"
+                    android:layout_height="18dp"
+                    android:gravity="top"
+                    android:text="@string/sunday_12_j"
+                    android:textAppearance="@style/sunday_12_j"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_2"
+                    app:layout_constraintHorizontal_bias="0.188"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/abcd_vaccin1"
+                    app:layout_constraintVertical_bias="0.8" />
+
+                <View
+                    android:id="@+id/vuesax_line2"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/clock"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_2"
+                    app:layout_constraintHorizontal_bias="0.597"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.809" />
+
+                <TextView
+                    android:id="@+id/sunday_time1"
+                    android:layout_width="88dp"
+                    android:layout_height="18dp"
+                    android:gravity="top"
+                    android:text="12:00 PM"
+                    android:textAppearance="@style/sunday_12_j"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_2"
+                    app:layout_constraintHorizontal_bias="0.912"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/abcd_vaccin1"
+                    app:layout_constraintVertical_bias="0.8" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/frame_13"
+                android:layout_width="336dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/remainder_frame"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.481"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.158">
+
+                <TextView
+                    android:id="@+id/abcd_vaccin2"
+                    android:layout_width="155dp"
+                    android:layout_height="23dp"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:gravity="top"
+                    android:lineSpacingExtra="-6sp"
+                    android:text="ABCD Vaccination"
+                    android:textAppearance="@style/abcd_vaccin"
+                    app:layout_constraintBottom_toTopOf="@+id/vaccinnatio2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.066"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.8" />
+
+                <TextView
+                    android:id="@+id/vaccinnatio2"
+                    android:layout_width="318dp"
+                    android:layout_height="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="top"
+                    android:text="@string/vaccinnatio"
+                    android:textAppearance="@style/vaccinnatio"
+                    android:textSize="12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.619"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.298" />
+
+                <View
+                    android:id="@+id/vector_3"
+                    android:layout_width="319dp"
+                    android:layout_height="4dp"
+                    android:background="@drawable/vec_line"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/vaccinnatio2"
+                    app:layout_constraintVertical_bias="0.159" />
+
+                <View
+                    android:id="@+id/vuesax_line3"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/calendar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_3"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.809" />
+
+                <TextView
+                    android:id="@+id/sunday_12_j3"
+                    android:layout_width="95dp"
+                    android:layout_height="18dp"
+                    android:gravity="top"
+                    android:text="@string/sunday_12_j"
+                    android:textAppearance="@style/sunday_12_j"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_3"
+                    app:layout_constraintHorizontal_bias="0.188"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/abcd_vaccin2"
+                    app:layout_constraintVertical_bias="0.8" />
+
+                <View
+                    android:id="@+id/vuesax_line4"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/clock"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_3"
+                    app:layout_constraintHorizontal_bias="0.597"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.809" />
+
+                <TextView
+                    android:id="@+id/sunday_time3"
+                    android:layout_width="88dp"
+                    android:layout_height="18dp"
+                    android:gravity="top"
+                    android:text="12:00 PM"
+                    android:textAppearance="@style/sunday_12_j"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/vector_3"
+                    app:layout_constraintHorizontal_bias="0.912"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/abcd_vaccin2"
+                    app:layout_constraintVertical_bias="0.8" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="390dp"
+        android:layout_height="71dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="1.0" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hme"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/hme" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.372"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/chart" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.659"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/bell" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#05FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.953"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/setting" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
